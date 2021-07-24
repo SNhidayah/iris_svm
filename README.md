@@ -128,7 +128,7 @@ sum(test_iris$variety == predictionbestsigmoid)/30
 
 
 <h3> Conclusion </h3>
-Although linear and sigmoid give testing set with an accuracy of 96.66667%, however, both of these kernels possess slightly lower accuracy values in training set than RBF. Therefore, in this analysis, RBF kernel is the best kernel to be employed in building SVM model since this kernel gives the best accuracy values in training and testing set of iris data.
+Although linear and sigmoid give testing set with an accuracy of 96.66667%, however, both of these kernels possess slightly lower accuracy values in training set than RBF. Therefore, in this analysis, RBF kernel is the best kernel to be employed in building SVM model. This kernel successfully classifies the Iris flowers based on their own species; <i>setosa</i>, <i>versicolor</i>, <i>verginica</i> with an accuracy value 96.66667% in both training and testing set of iris data.
 
 
 
